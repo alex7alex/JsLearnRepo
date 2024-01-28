@@ -1,10 +1,10 @@
-// // Lesson 1, Task 1
-// let user_name = +prompt("Please input your name");
-// console.log("Hello, "+user_name+ "! How are you?");
+//Lesson 1, Task 1
+let user_name = +prompt("Please input your name");
+console.log("Hello, "+user_name+ "! How are you?");
 
 
-// //Lesson 2, Task 1
-//  alert(((+prompt("Please input degree")) * (9/5) + 32));
+//Lesson 2, Task 1
+ alert(((+prompt("Please input degree")) * (9/5) + 32));
 
  //Lesson 3, Task 1
  let fingerNumber = +prompt("Please input a finger number");
