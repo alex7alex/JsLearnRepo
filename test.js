@@ -29,11 +29,11 @@
 /*Визначити, чи є рік високосним, чи ні. Рік буде високосним, якщо він кратний 400 або він одночасно кратний 4 і не кратний 100.
   Рік вводиться через prompt, результат - в алерт.*/
 
-// let year = +prompt("Please enter a year");
-// if (year % 400 == 0 || (year % 4 == 0 && !(year % 100 == 0))) {
-//     alert ('Leap year');
-// }
-// else alert ('Non-leap year')
+let year = +prompt("Please enter a year");
+if (year % 400 == 0 || (year % 4 == 0 && !(year % 100 == 0))) {
+    alert('Leap year');
+}
+else alert('Non-leap year')
 
 //Lesson 4, Task 1
 //Вирахувати факторіал числа за допомогою for або while. Число вводиться з промпту, число знаходиться в межах від 1 до 50.
@@ -46,7 +46,7 @@ while (step_validator) {
             factorial *= enterDigit;
             enterDigit--
         }
-    alert(`Factroial is ${factorial}`) 
+        alert(`Factroial is ${factorial}`)
     } else {
         alert("Please enter a number from 1 to 50");
         continue;
