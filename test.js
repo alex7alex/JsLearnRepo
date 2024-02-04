@@ -25,7 +25,7 @@
 //  }
 //  else alert ("Incorrect number")
 
-//Lesson 3, Task 1
+//Lesson 4, Task 1
 /*Визначити, чи є рік високосним, чи ні. Рік буде високосним, якщо він кратний 400 або він одночасно кратний 4 і не кратний 100.
   Рік вводиться через prompt, результат - в алерт.*/
 
@@ -35,7 +35,7 @@ if (year % 400 == 0 || (year % 4 == 0 && !(year % 100 == 0))) {
 }
 else alert('Non-leap year')
 
-//Lesson 4, Task 1
+//Lesson 5, Task 1
 //Вирахувати факторіал числа за допомогою for або while. Число вводиться з промпту, число знаходиться в межах від 1 до 50.
 let step_validator = true
 while (step_validator) {
