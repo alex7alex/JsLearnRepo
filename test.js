@@ -33,23 +33,28 @@ let year = +prompt("Please enter a year");
 if (year % 400 == 0 || (year % 4 == 0 && !(year % 100 == 0))) {
     alert('Leap year');
 }
-else alert('Non-leap year')
+else alert('Non-leap year');
 
 //Lesson 5, Task 1
 //Вирахувати факторіал числа за допомогою for або while. Число вводиться з промпту, число знаходиться в межах від 1 до 50.
-let step_validator = true
+let step_validator = true;
 while (step_validator) {
     let enterDigit = +prompt("Enter your digit?");
     let factorial = 1;
     if (enterDigit > 0 && enterDigit <= 50) {
         while (enterDigit > 1) {
             factorial *= enterDigit;
-            enterDigit--
+            enterDigit--;
         }
-        alert(`Factroial is ${factorial}`)
+        alert(`Factroial is ${factorial}`);
     } else {
         alert("Please enter a number from 1 to 50");
         continue;
     }
     step_validator = false;
 }
+
+// Ріщення з фор треба замінити цикл while на цей:
+// for (;enterDigit > 1; enterDigit--) { 
+//     factorial *= enterDigit;
+// }
